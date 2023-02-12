@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "lanutils"
 description = "Small package to probe ip addresses and ports on a local network"
-version = "0.0.0"
+version = "0.0.1"
 requires-python = ">=3.6"
 dependencies = ["icmplib~=3.0.3", "ifaddr~=0.2.0", "pytest~=7.2.1"]
 readme = "README.md"
