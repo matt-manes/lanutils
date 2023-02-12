@@ -7,7 +7,7 @@ pip install lanutils
 <br>
 Usage (assuming your local ip is 10.0.0.10 with prefix 24, you're connected via ethernet, you have a http server running on port 8000, and there are a few other devices on your network):
 <pre>
->>> from lanutils import lanutils
+>>> import lanutils
 >>> lanutils.get_myip()
 >>> [("10.0.0.10", 24, "Ethernet")]
 >>> lanutils.ip_is_alive("10.0.0.10")
