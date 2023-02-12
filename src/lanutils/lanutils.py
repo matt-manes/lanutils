@@ -42,7 +42,7 @@ def ip_is_alive(ip: str, timeout: float = 0.1) -> bool:
 
     :param timeout: How long in seconds
     to wait before declaring host dead."""
-    return icmplib.ping(ip, count=1, timeout=timeout).is_alive
+    return icmplib.ping(ip, count=1, timeout=timeout, privileged=False).is_alive
 
 
 def enumerate_devices(timeout: float = 0.1) -> list[str]:
