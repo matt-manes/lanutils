@@ -7,7 +7,7 @@ import ifaddr
 
 
 def get_myip(
-    adapters_to_find: list[str] = ["Ethernet", "Wi-Fi"]
+    adapters_to_find: list[str] = ["Ethernet", "Wi-Fi", "wlo1"]
 ) -> list[tuple[str, int, str]]:
     """Returns this machine's active local network ipv4 addresses
     for adapters listed in adapters_to_find.
