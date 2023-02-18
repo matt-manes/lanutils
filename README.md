@@ -1,5 +1,5 @@
-# lanutils
-Small package to probe ip addresses and ports on a local network <br>
+# Lanutils
+Small package to probe ip addresses and ports on a local network. <br>
 Install with:<br>
 <pre>
 pip install lanutils
@@ -20,6 +20,6 @@ Usage (assuming your local ip is 10.0.0.10 with prefix 24, you're connected via 
 >>> True
 >>> lanutils.scan_ports("10.0.0.10", (7990, 8010))
 >>> [8000]
->>> lanutils.get_available_port("10.0.0.10", (8000, 8001))
+>>> lanutils.get_available_port("10.0.0.10", (8000, 8005))
 >>> 8001
 </pre>
