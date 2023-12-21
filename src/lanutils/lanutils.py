@@ -6,7 +6,7 @@ import icmplib
 import ifaddr
 
 
-def get_myip(
+def get_my_ip(
     adapters_to_find: list[str] = ["Ethernet", "Wi-Fi", "wlo1"]
 ) -> list[tuple[str, int, str]]:
     """Returns this machine's active local network ipv4 addresses
@@ -51,7 +51,7 @@ def enumerate_devices(timeout: float = 0.1) -> list[str]:
 
     :param timeout: How long, in seconds, to wait before
     declaring an ip address inactive."""
-    myip = get_myip()[0]
+    myip = get_my_ip()[0]
     network = ipaddress.ip_network(f"{myip[0]}/{myip[1]}", strict=False)
     # Skip network and broadcast ip addresses
     hosts = list(network.hosts())[1:-1]
