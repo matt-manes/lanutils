@@ -94,3 +94,7 @@ def get_available_port(ip: str, port_range: tuple[int, int] = (0, 65535)) -> int
     raise RuntimeError(
         f"Could not find an available port within the range {port_range}"
     )
+
+
+def whats_my_ip_cli():
+    print(get_my_ip())
