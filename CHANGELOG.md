@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.0.0 (2023-12-24)
+
+#### New Features
+
+* add enumerate_devices cli
+* add cli for whats my ip
+#### Refactorings
+
+* BREAKING: change 'get_myip' to 'get_my_ip'
+
+
+## v0.0.4 (2023-03-22)
+
+#### Others
+
+* update readme
+
+
 ## v0.0.3 (2023-02-11)
 
 #### Fixes
