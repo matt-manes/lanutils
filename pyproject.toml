@@ -1,7 +1,7 @@
 [project]
 name = "lanutils"
 description = "Small package to probe ip addresses and ports on a local network"
-version = "0.0.4"
+version = "1.0.0"
 dependencies = ["icmplib", "ifaddr"]
 readme = "README.md"
 keywords = ["lan", "network", "networking", "discovery"]
