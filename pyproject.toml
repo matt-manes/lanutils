@@ -2,7 +2,7 @@
 name = "lanutils"
 description = "Small package to probe ip addresses and ports on a local network"
 version = "0.0.4"
-dependencies = ["icmplib", "ifaddr", "pytest"]
+dependencies = ["icmplib", "ifaddr"]
 readme = "README.md"
 keywords = ["lan", "network", "networking", "discovery"]
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]

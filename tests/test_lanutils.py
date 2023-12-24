@@ -1,5 +1,3 @@
-import pytest
-
 from lanutils import lanutils
 
 
