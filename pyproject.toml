@@ -19,6 +19,7 @@ Documentation = "https://github.com/matt-manes/lanutils/tree/main/docs"
 
 [project.scripts]
 whats_my_ip = "lanutils.lanutils:whats_my_ip_cli"
+enumerate_devices = "lanutils.lanutils:enumerate_devices_cli"
 
 [tool]
 [tool.pytest.ini_options]

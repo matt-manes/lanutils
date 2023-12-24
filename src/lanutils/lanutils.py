@@ -98,3 +98,7 @@ def get_available_port(ip: str, port_range: tuple[int, int] = (0, 65535)) -> int
 
 def whats_my_ip_cli():
     print(get_my_ip())
+
+
+def enumerate_devices_cli():
+    print(*enumerate_devices(), sep="\n")
